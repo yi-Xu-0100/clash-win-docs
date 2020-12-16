@@ -16,6 +16,10 @@
     <a href="https://fastlink.ws/auth/register?code=clashw" style="max-height: 150px; max-width: 690px;">
         <img src="http://download.fastlink.ws/fastlink_banner.jpg" style="" />
     </a>
+    <div style="height: 2px; width: 100%; background-color: #f1f1f1; margin: 5px 0;"></div> 
+    <a href="http://cylink.wtf" style="max-height: 150px; max-width: 690px;">
+        <img src="http://to.kache.moe/ad/clash_690_150.jpeg" style="" />
+    </a>
 </div>
 
 ### 名词
