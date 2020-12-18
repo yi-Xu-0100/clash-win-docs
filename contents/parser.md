@@ -85,6 +85,20 @@ commands:
 
 如果设定值为纯数字，则会被识别为整数，为``true|false``则识别为布尔类型，如果JSON编码通过则识别为对象
 
+v0.13.7版本更新后，支持3个内置值用于设置策略组节点，分别是``[]proxyNames``，``[]groupNames``和``[]shuffledProxyNames``，并支持使用正则过滤其中节点，例子如下：
+```yaml
+commands:
+  prepend-proxy-groups:
+    - name: myGroup                                 # 建立新策略组
+      type: fallback
+      url: "http://www.gstatic.com/generate_204"
+      interval: 300
+      proxies:
+        - DIRECT
+
+  commands:
+    - proxy-groups.myGroup.proxies=[]proxyNames|HK  # 向策略组添加所有定义的节点名，并按“HK”正则表达式过滤
+```
 
 ### 进阶方法（JavaScript）
 
