@@ -6,7 +6,7 @@
 
 启动 TUN 模式需要进行如下操作：
 
-1. 进入网站[Wintun](https://www.wintun.net/)，点解界面中`Download Wintun xxx`下载压缩包，根据系统版本将对应目录中`wintun.dll`复制至`Home Directory`目录中
+1. 进入网站[Wintun](https://www.wintun.net/)，点击界面中`Download Wintun xxx`下载压缩包，根据系统版本将对应目录中`wintun.dll`复制至`Home Directory`目录中
 2. 以管理员权限启动 CFW
 3. 在使用的配置文件中加入如下内容：
 
@@ -23,7 +23,7 @@ tun:
   dns-hijack:
     - 198.18.0.2:53
   macOS-auto-route: true
-  macOS-auto-detect-interface: false # 自动检测出口网卡
+  macOS-auto-detect-interface: true # 自动检测出口网卡
 ```
 
 ### macOS
