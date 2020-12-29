@@ -36,8 +36,8 @@ append-rules|数组|数组合并至原配置``rules``数组**后**
 prepend-rules|数组|数组合并至原配置``rules``数组**前**
 append-proxies|数组|数组合并至原配置``proxies``数组**后**
 prepend-proxies|数组|数组合并至原配置``proxies``数组**前**
-append-proxy-groups|数组|数组合并至原配置``proxiy-groups``数组**后**
-prepend-proxy-groups|数组|数组合并至原配置``proxiy-groups``数组**前**
+append-proxy-groups|数组|数组合并至原配置``proxy-groups``数组**后**
+prepend-proxy-groups|数组|数组合并至原配置``proxy-groups``数组**前**
 mix-proxy-providers|对象|对象合并至原配置``proxy-providers``中
 mix-rule-providers|对象|对象合并至原配置``rule-providers``中
 mix-object|对象|对象合并至原配置最外层中
