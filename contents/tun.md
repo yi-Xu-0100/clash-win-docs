@@ -7,7 +7,7 @@
 启动 TUN 模式需要进行如下操作：
 
 1. 进入网站[Wintun](https://www.wintun.net/)，点击界面中`Download Wintun xxx`下载压缩包，根据系统版本将对应目录中`wintun.dll`复制至`Home Directory`目录中
-2. 以管理员权限启动 CFW
+2. 点击`General`中`Service Mode`右边`Manage`，在打开窗口中安装服务模式，安装完成应用会自动重启，Service Mode右边地球图标变为`绿色`即安装成功
 3. 在使用的配置文件中加入如下内容：
 
 ```yaml
@@ -30,7 +30,7 @@ tun:
 
 启动 TUN 模式需要进行如下操作：
 
-1. 进入`General`中，点击`Root Enable`下方`Authorize`小字，弹出授权输入密码（当前版本下，每次更新 CFW，都需要重新授权）
+1. 点击`General`中`Service Mode`右边`Manage`，在打开窗口中安装服务模式，安装完成应用会自动重启，Service Mode右边地球图标变为`绿色`即安装成功
 2. 在使用的配置文件中加入如下内容：
 
 ```yaml
